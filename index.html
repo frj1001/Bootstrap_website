@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multipurpose - SB UI Kit pro Angular</title>
+    <link rel="icon" type="image/x-icon" href="favico.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+  <!-- I have added ids of different sections as navigation links in navbar for easy navigation 
+  throughout the website through fixed navbar. This is extra feature from me -->
+    <div id="main">
+      <nav class="navbar navbar-dark navbar-expand-lg bg-black py-4 fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">SB UI Kit Pro</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-lg-auto mb-2 mb-lg-0">
+              <li class="nav-item ">
+                <a class="nav-link" aria-current="page" href="#main">Home</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="#three">Landings ></a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="#four">Pages ></a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="#six">Documentation ></a>
+              </li>
+              <li class="nav-item ms-lg-5">
+                <button class="btn btn-success btn-lg" type="submit">Buy Now <i class="fa-solid fa-arrow-right"></i></button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <section id="hero">
+        <div class="container">
+          <div class="row">
+            <div id="hero-one" class="col">
+              <p class="display-6" style="color:white; font-weight: 600;">Build your next project faster with SB UI Kit Pro</p>
+              <p style="font-size: 1.3rem; color:#c7d0f9;">Welcome to SB UI Kit Pro, a toolkit for building beautiful web interfaces, created by the development team at Start Bootstrap</p>
+              <div class="mt-5">
+                <button class="btn btn-success btn-lg" type="submit">View Pages <i class="fa-solid fa-arrow-right"></i></button>
+                <a href="#" style="color: white; text-decoration: none;" class="ms-2">Documentation</a>
+              </div>
+            </div>
+            <div id="hero-two" class="col my-auto">
+              <div class="container-fluid" style="width: 100%;">
+                <img src="windows.svg" alt="windows">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <section id="two" class="mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="container">
+              <div class="ico"><i class="fa-solid fa-layer-group" style="font-size: 1.3rem; color: white;">
+              </i></div>
+              <div class="heading">Built for developers</div>
+              <div class="detail">Our customizable, block-based build system makes creating your next project fast and easy!</div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="container">
+              <div class="ico"><i class="fa-solid fa-mobile-button" style="font-size: 1.3rem; color: white;" ></i></div>
+              <div class="heading">Modern responsive design</div>
+              <div class="detail">Featuring carefully crafted, mobile-first components, your end product will function beautifully on any device!</div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="container">
+              <div class="ico"><i class="fa-solid fa-code" style="font-size: 1.3rem; color: white;" >
+              </i></div>
+              <div class="heading">Complete documentation</div>
+              <div class="detail">All of the layouts, page sections, components, and utilities are fully covered in this products docs.</div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="three" class="mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 d-flex align-items-center img-div">
+            <div class="container-fluid" style="height: 60%; width: 100%;">
+              <img src="landing-portfolio.png" alt="landing-portfolio">
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col">
+                <div class="container">
+                  <p style="font-size: 1.4rem; font-weight: 600;">Here's What You Get</p>
+                  <p style="font-size: 1.2rem; color: rgb(75, 74, 74);">When you purchase this UI Kit, you get access to a robust suite of powerful tools and components to help you build your next landing page quickly and easily.</p>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-4">
+              <div class="col-md-6">
+                <div class="container">
+                  <p style="font-weight: 600; color: rgb(75, 74, 74); font-size: 1.1rem;">Landing Pages</p>
+                  <p>We've crafted landing page examples for many popular business and product types.</p>
+                  <p><a href="#" style="text-decoration: none;">Learn More <i class="fa-solid fa-arrow-right" style="font-size: 0.9rem;"></i></a></p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="container">
+                  <p style="font-weight: 600; color: rgb(75, 74, 74); font-size: 1.1rem;">Page Examples</p>
+                  <p>Use our pre-built page examples to quickly create inner pages to your website.</p>
+                  <p><a href="#" style="text-decoration: none;">Learn More <i class="fa-solid fa-arrow-right" style="font-size: 0.9rem;"></i> </a></p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="container">
+                  <p style="font-weight: 600; color: rgb(75, 74, 74); font-size: 1.1rem;">Layouts</p>
+                  <p>Our flex box based layout options make your site beautifully responsive and adaptable to any device.</p>
+                  <p><a href="#" style="text-decoration: none;">Learn More <i class="fa-solid fa-arrow-right" style="font-size: 0.9rem;"></i></a></p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="container">
+                  <p style="font-weight: 600; color: rgb(75, 74, 74); font-size: 1.1rem;">Modular Sections</p>
+                  <p>All of the sections on each page are modular, so you can drop them into an existing page, or start with a new one!</p>
+                  <p><a href="#" style="text-decoration: none;">Learn More <i class="fa-solid fa-arrow-right" style="font-size: 0.9rem;"></i> </a></p>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-5">
+              <div class="col-lg-6 img-hide">
+                <div class="container-fluid" style="height: 30vw; width: 70%;">
+                  <img src="landing-portfolio.png" alt="landing-portfolio">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="row mt-5">
+        <div class="col">
+          <div style="text-align: center; font-size: 1.4rem; font-weight: 600;">Simple Pricing</div>
+          <p style="text-align: center; font-size: 1.2rem; color: rgb(75, 74, 74);">Easy pricing means no suprises.</p>
+        </div>
+      </div>
+      <div id="pricing" class="container mt-4">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="container d-flex align-items-center outer">
+              <div class="container" style="width: 90%; height: 90%;">
+                <div style="height: 35%;">
+                  <div style="background-color: #f2f6fc; display: inline; border-radius: 30%; padding: 1%;font-size: 0.8rem;">Free</div>
+                  <p style="font-size: 3rem;"><sup style="font-size: 1.5rem;">$</sup>0/mo</p>
+                </div>
+                <div style="height: 60%; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>1 user</div>
+                  <div>Community support</div>
+                  <div>Style customizer</div>
+                  <div>Custom components</div>
+                  <div>Expanded utilities</div>
+                  <div>Third-party integration</div>
+                  <div>Layout options</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="container d-flex align-items-center outer">
+              <div class="container" style="width: 90%; height: 90%;">
+                <div style="height: 35%;">
+                  <div style="background-color: #dae7fb; color: #448bf5; display: inline; border-radius: 30%; padding: 1%; font-size: 0.8rem;">standard</div>
+                  <p style="font-size: 3rem;"><sup style="font-size: 1.5rem;">$</sup>19/mo</p>
+                </div>
+                <div style="height: 60%; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>Up to 15 users</div>
+                  <div>Email and live chat support</div>
+                  <div>Style customizer</div>
+                  <div>Custom components</div>
+                  <div>Expanded utilities</div>
+                  <div>Third-party integration</div>
+                  <div>Layout options</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="container d-flex align-items-center outer">
+              <div class="container" style="width: 90%; height: 90%;">
+                <div style="height: 35%;">
+                  <div style="background-color: #f2f6fc; display: inline; border-radius: 30%; padding: 1%; font-size: 0.8rem;">Enterprise</div>
+                </div>
+                <div style="height: 30%;">
+                  <p>We offer bulk discounts for larger organizations. Contact us to set up an enterprise level plan!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="four">
+      <div id="top" class="container mt-5">
+        <div class="row" style="height: 50%;">
+          <div class="col-lg-6">
+            <div class="d-flex" style="height: 100%;">
+              <div class="custom-left" style="width: 12%;">
+                <div class="circle"><i class="fa-solid fa-question" style="font-size: 1.2rem;"></i></div>
+              </div>
+              <div class="custom-right" style="width: 88%;">
+                <div style="font-size: 1.2rem; font-weight: 600;">What is SB UI Kit Pro?</div>
+                <p style="color: #84888d;">SB UI Kit Pro is a fully coded, responsive, Bootstrap based UI toolkit for developers.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="d-flex" style="height: 100%;">
+              <div class="custom-left" style="width: 12%;">
+                <div class="circle"><i class="fa-solid fa-question" style="font-size: 1.2rem;"></i></div>
+              </div>
+              <div class="custom-right" style="width: 88%;">
+                <div style="font-size: 1.2rem; font-weight: 600;">What can I build with SB UI Kit Pro?</div>
+                <p style="color: #84888d;">Build anything you want to using this UI kit! It is flexible, multipurpose, and full of tools for you to use during development.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row " style="height: 50%;">
+          <div class="col-lg-6 ">
+            <div class="d-flex" style="height: 100%;">
+              <div class="custom-left" style="width: 12%;">
+                <div class="circle"><i class="fa-solid fa-question" style="font-size: 1.2rem;"></i></div>
+              </div>
+              <div class="custom-right" style="width: 88%;">
+                <div style="font-size: 1.2rem; font-weight: 600;">Do I get free updates?</div>
+                <p style="color: #84888d;">All of Start Bootstrap's premium products will come with updates for feature additions, bugfixes, and other small updates.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 ">
+            <div class="d-flex" style="height: 100%;">
+              <div class="custom-left" style="width: 12%;">
+                <div class="circle"><i class="fa-solid fa-question" style="font-size: 1.2rem;"></i></div>
+              </div>
+              <div class="custom-right" style="width: 88%;">
+                <div style="font-size: 1.2rem; font-weight: 600;">What frameworks does it integrate with?</div>
+                <p style="color: #84888d;">Our Angular based version of SB UI Kit Pro is built to integrate with the Angular framework!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="bottom" class="container">
+        <div style="font-size: 0.8rem; background-color: black; color: #84888d; width: 5rem; margin: auto; padding-left: 7px; border-radius: 30%;">Get Started</div>
+        <div class="mt-3" style="font-size: 1.5rem; text-align: center; font-weight: 600;">Save time with SB UI Kit Pro</div>
+        <p style="text-align: center; font-size: 1.1rem; color: #84888d; width: 60%; margin: auto;">Start Bootstrap's premium UI Kit beautifully and intuitively extends the Bootstrap framework making it easy to build your next project!</p>
+        <button class="btn btn-success btn-lg mt-4" style="display: block; margin: auto; width: 7rem;">Buy Now!</button>
+      </div>
+    </section>
+    <section id="five">
+      <div id="top-con" class="container">
+        <div class="row" style="height: 100%;">
+          <div class="col-lg-6 border-end d-flex align-items-center" style="height: 100%;">
+            <div class="container" style="height: 90%; width: 75%;">
+              <div><i class="fa-brands fa-google" style="font-size: 3rem; color: #c5ccd6;"></i></div>
+              <p class="mt-4" style="font-size: 1.5rem; color: #0061f2;">"Stripe Billing enabled us to launch our subscription product, eero Plus, on schedule and with billing fully integrated."</p>
+              <div style="font-size: 1.1rem; font-weight: 600; color: #69707a;">Mark Sieglock</div>
+              <div style="font-size: 1rem; color: #77797c;">Head Of Business Operations</div>
+            </div>
+          </div>
+          <div class="col-lg-6 d-flex align-items-center" style="height: 100%;">
+            <div class="container " style="height: 90%; width: 75%;">
+              <div><i class="fa-brands fa-square-instagram" style="font-size: 3rem; color: #c5ccd6;"></i></div>
+              <p class="mt-4" style="font-size: 1.5rem; color: #0061f2;">"We implemented Stripe to introduce new billing and payment models and increased our trial conversion by 300%."</p>
+              <div style="font-size: 1.1rem; font-weight: 600; color: #69707a;">Sylvan Boucard</div>
+              <div style="font-size: 1rem; color: #77797c;">Payments Product Manager</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="bottom-con" class="container">
+        <div class="row" style="height: 100%;">
+          <div class="col-lg-6">
+            <div class="container d-flex" style="height: 100%; width: 95%; border-radius: 5px; box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            ">
+              <div class="left-right d-flex align-items-center" style="min-width: 100px;">
+                <div class="round"><i class="fa-solid fa-wave-square" style="font-size: 1.3rem; color: white;"></i></div>
+              </div>
+              <div class="left-right my-auto">
+                <div style="font-size: 1.2rem; font-weight: 600; color: #0061f2;">Work smarter, not harder</div>
+                <p class="mt-2" style="color: rgb(56, 53, 53)">Learn more about how our product can save you time and effort in the long run!</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 ">
+            <div class="container d-flex" style="height: 100%; width: 95%; border-radius: 5px; box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            ">
+              <div class="left-right d-flex align-items-center" style="min-width: 100px;">
+                <div class="round" style="background-color: #6900c7;"><i class="fa-solid fa-code" style="font-size: 1.3rem; color: white;"></i></div>
+              </div>
+              <div class="left-right my-auto">
+                <div style="font-size: 1.2rem; font-weight: 600; color: #6900c7;">Built for developers</div>
+                <p class="mt-2" style="color: rgb(56, 53, 53)">Our components, utilities, and layouts are built with developers in mind.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="six">
+      <div id="top-div" class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="container">
+              <div style="font-size: 1.2rem; font-weight: 500;">Ready to get started?</div>
+              <p style="font-size: 1.2rem; color: #aaabb1;">Get in touch or create an account.</p>
+            </div>
+          </div>
+          <div id="custom-div" class="col-lg-6 d-flex justify-content-end">
+            <div id="custom-cont" style="min-width: 310px;">
+              <button class="btn btn-primary btn-lg me-3" style="border-radius: 5px; font-size: 0.9rem;">Contact Sales</button>
+              <button class="btn btn-lg" style="border-radius: 5px; font-size: 0.9rem; color: black; background-color: white;">Create Account</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div id="middle-div" class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="container">
+              <div style="font-size: 1.2rem; font-weight: 700;">SB UI Kit Pro</div>
+              <div class="mt-2" style="font-size: 0.9rem; font-weight: 600;">Build better websites</div>
+              <div class="mt-3">
+                <a href="#" style="color:#a7aeb8;"><i class="fa-brands fa-instagram" style="font-size: 1.1rem;"></i></a>
+                <a href="#" style="color:#a7aeb8;"><i class="fa-brands fa-facebook" style="font-size: 1.1rem;"></i></a>
+                <a href="#" style="color:#a7aeb8;"><i class="fa-brands fa-github" style="font-size: 1.1rem;"></i></a>
+                <a href="#" style="color:#a7aeb8;"><i class="fa-brands fa-twitter" style="font-size: 1.1rem;"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-9 lists">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6 col-lg-3">
+                  <div style="font-weight: 700;">PRODUCT</div>
+                  <div class="mt-3">
+                    <a href="#" style="color: #a7aeb8;">Landing</a>
+                  </div>
+                  <div class="mt-2">
+                    <a href="#" style="color: #a7aeb8;">Pages</a>
+                  </div>
+                  <div class="mt-2">
+                    <a href="#" style="color: #a7aeb8;">Sections</a>
+                  </div>
+                  <div class="mt-2">
+                    <a href="#" style="color: #a7aeb8;">Documentation</a>
+                  </div>
+                  <div class="mt-2">
+                    <a href="#" style="color: #a7aeb8;">Changelog</a>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                  <div style="font-weight: 700;">TECHNICAL</div>
+                  <div class="mt-3">
+                    <a href="#" style="color: #a7aeb8;">Documentation</a>
+                  </div>
+                  <div class="mt-2">
+                    <a href="#" style="color: #a7aeb8;">Changelog</a>
+                  </div>
+                  <div class="mt-2">
+                    <a href="#" style="color: #a7aeb8;">Theme Customizer</a>
+                  </div>
+                  <div class="mt-2">
+                    <a href="#" style="color: #a7aeb8;">UI Kit</a>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                  <div style="font-weight: 700;">INCLUDES</div>
+                  <div class="mt-3">
+                    <a href="#" style="color: #a7aeb8;">Utilities</a>
+                  </div>
+                  <div class="mt-2">
+                    <a href="#" style="color: #a7aeb8;">Components</a>
+                  </div>
+                  <div class="mt-2">
+                    <a href="#" style="color: #a7aeb8;">Layouts</a>
+                  </div>
+                  <div class="mt-2">
+                    <a href="#" style="color: #a7aeb8;">Code Samples</a>
+                  </div>
+                  <div class="mt-2">
+                    <a href="#" style="color: #a7aeb8;">Products</a>
+                  </div>
+                  <div class="mt-2">
+                    <a href="#" style="color: #a7aeb8;">Affiliates</a>
+                  </div>
+                  <div class="mt-2">
+                    <a href="#" style="color: #a7aeb8;">Updates</a>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                  <div style="font-weight: 700;">LEGAL</div>
+                  <div class="mt-3">
+                    <a href="#" style="color: #a7aeb8;">Privacy Policy</a>
+                  </div>
+                  <div class="mt-2">
+                    <a href="#" style="color: #a7aeb8;">Terms and Conditions</a>
+                  </div>
+                  <div class="mt-2">
+                    <a href="#" style="color: #a7aeb8;">License</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="container">
+        <div class="row">
+          <div class="col-md-6" style="font-size: 0.8rem; font-weight: 600;">
+            Copyright © By Farhaj 2023
+          </div>
+          <div class="col-md-6 d-flex justify-content-end botom" style="font-size: 0.8rem; font-weight: 600;">
+            <div>
+              <a href="">Privacy Policy .</a>
+              <a href="">Terms and Conditions</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,260 @@
+@media (max-width: 992px){
+    #hero-two {
+        display: none;
+    }
+
+    .img-div {
+        display: none !important;
+    }
+
+    #custom-div {
+        justify-content: start !important;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 1200px){
+    #two .container .row .col-lg-4{
+        height: 40vw;
+    }
+
+    #two .container .row .col-lg-4 .container {
+        height: 30vw;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 576px){
+    #hero {
+        padding-top: 28%;
+    }
+
+    #two .container .row .col-lg-4{
+        height: 70vw;
+    }
+
+    #two .container .row .col-lg-4 .container {
+        height: 60vw;
+    }
+
+    #three {
+        height: 670vw;
+    }
+
+    #pricing .row .col-lg-4 .container {
+        height: 100vw;
+    }
+
+    #four {
+        height: 400vw;
+    }
+
+    #four #top {
+        height: 300vw;
+    }
+
+    #four #bottom {
+        height: 150vw;
+    }
+
+    #five {
+        height: 400vw;
+    }
+
+    #five #top-con {
+        height: 130vw;
+    }
+
+    #five #bottom-con {
+        margin-top: 140%;
+        height: 100vw;
+    }
+
+    #six {
+        height: 350vw;
+    }
+
+    #middle-div {
+        height: 245vw;
+    }
+
+    footer {
+        height: 12vw;
+    }
+
+    footer .botom {
+        justify-content: start !important;
+    }
+}
+
+@media (min-width: 992px){
+    .img-hide {
+        display: none;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 992px){
+    #three {
+        height: 110vw;
+    }
+
+    #pricing .row .col-lg-4 .container {
+        height: 50vw;
+    }
+
+    #three {
+        height: 280vw;
+    }
+
+    #four {
+        height: 130vw;
+    }
+
+    #four #top {
+        height: 60vw;
+    }
+
+    #four #bottom {
+        height: 30vw;
+    }
+
+    #five {
+        height: 150vw;
+    }
+
+    #five .container .row .border-end {
+        border: none !important;
+    }
+
+    #five #top-con {
+        height: 40vw;
+    }
+
+    #five #bottom-con {
+        margin-top: 40%;
+        height: 25vw;
+    }
+
+    #six {
+        height: 120vw;
+    }
+
+    #middle-div {
+        height: 73vw;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px){
+    #hero {
+        padding-top: 20%;
+    }
+
+    #three {
+        height: 450vw;
+    }
+
+    #pricing .row .col-lg-4 .container {
+        height: 80vw;
+    }
+
+    #four {
+        height: 150vw;
+    }
+
+    #four #top {
+        height: 80vw;
+    }
+
+    #four #bottom {
+        height: 50vw;
+    }
+
+    #five {
+        height: 200vw;
+    }
+
+    #five #top-con {
+        height: 60vw;
+    }
+
+
+    #five #bottom-con {
+        margin-top: 60%;
+        height: 45vw;
+    }
+
+    #five .container .row .border-end {
+        border: none !important;
+    }
+
+    #six {
+        height: 200vw;
+    }
+
+    #middle-div {
+        height: 150vw;
+    }
+
+    footer {
+        height: 10vw;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1300px){
+    #pricing .row .col-lg-4 .container {
+        height: 35vw;
+    }
+
+    #three {
+        height: 95vw;
+    }
+
+    #four {
+        height: 90vw;
+    }
+
+    #four #top {
+        height: 30vw;
+    }
+
+    #four #bottom {
+        height: 20vw;
+    }
+
+    #five {
+        height: 60vw;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1200px){
+    #pricing .row .col-lg-4 .container {
+        height: 40vw;
+    }
+
+    #three {
+        height: 120vw;
+    }
+
+    #four {
+        height: 90vw;
+    }
+
+    #four #top {
+        height: 30vw;
+    }
+
+    #four #bottom {
+        height: 20vw;
+    }
+
+    #five {
+        height: 80vw;
+    }
+
+    #five #top-con {
+        height: 35vw;
+    }
+
+}
+
+
